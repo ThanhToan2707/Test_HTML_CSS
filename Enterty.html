@@ -4,8 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enterty HTML</title>
+    <style>
+      h1 {
+        color: rgb(0, 255, 94);
+        size: 50px;
+      }
+        p {
+            color: rgb(38, 0, 255);
+            font-size: 20px;
+        }
+      table {
+        width: 60%; /* chiều rộng bảng */
+        border-collapse: collapse; /* xóa đường viền bảng */
+      }
+      th, td {
+        border: 1px solid black; /* đường viền cho th và td */
+        padding: 6px; /* khoảng cách giữa nội dung và đường viền */
+        text-align:center; /* căn lề trái cho nội dung */
+      }
+      th { 
+        background-color: #9fcef2; /* màu nền cho tiêu đề */
+        color: black; /* màu chữ cho tiêu đề */
+      }
+      tr:nth-child(even) {
+        background-color: #cad0d3; /* màu nền cho hàng chẵn */
+      }
+      tr:hover {
+        background-color: #c1f4bf; /* màu khi rê chuột vào hàng */
+      }
+    </style>
   </head>
   <body>
     <h1>Chào</h1>
+    <p>
+      Chúng sử dụng Thẻ &lt;h1&gt;Thẻ H1&lt;/h1&gt; để làm nổi bậc nội dung lên!
+      <br />
+        <!-- thẻ pre cách khoảng -->
+      Ngày xưa trong một khu rừng xa xôi LuXia có một chú Lùn cười rất xinh xắn<pre>Chú ấy màu Xanh    và         Thông minh</pre>
+    </p>
+    <hr>
+    <h2>Học Table html</h2> 
+    <table border="1"> <!-- border="1" là đường viền bảng -->
+      <tr> <!-- tr là hàng -->
+        <th>STT</th> <!-- th là tiêu đề -->
+        <th>Tên</th>
+        <th>Tuổi</th>
+        <th>Số điện thoại</th>
+      </tr>
+      <tr>
+        <td>1</td> <!-- td là nội dung -->
+        <td>Nguyễn Văn A</td> <!-- td là nội dung -->
+        <td>20</td> <!-- td là nội dung -->
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Nguyễn Văn B</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Nguyễn Văn C</td>
+        <td>22</td>
+        <td>0877005963</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Nguyễn Hồng Thanh Toàn</td>
+        <td>27</td>
+        <td>0917152206</td>
+      </tr>
+    </table> <br>
+
+    <hr>
+        <h2>Thẻ Colspan và Rowspan</h2> 
+        <table border="1"> <!-- border="1" là đường viền bảng -->
+            <tr> <!-- tr là hàng -->
+                <th>STT</th> <!-- th là tiêu đề -->
+                <th colspan="1">Tên</th>
+                <th>Tuổi</th>
+                <th rowspan="1">Số điện thoại</th>
+            </tr>
+            <tr>
+                <td>1</td> <!-- td là nội dung -->
+                <td colspan="2">Nguyễn Văn A</td> <!-- td là nội dung -->
+                <td>20</td> <!-- td là nội dung -->
+                <td rowspan="2">0999999999</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="2">Nguyễn Văn B</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td rowspan="2">Nguyễn Văn C</td>
+                <td>22</td>
+                <td>0877005963</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>23</td>
+                <td>0877005963</td>
+            </tr>
+
+
   </body>
 </html>
