@@ -1,0 +1,41 @@
+h1 {
+  color: rgb(225, 22, 22);
+  font-size: 5em;
+  text-align: center; /* căn lề giữa */
+  text-transform: uppercase; /* chuyển thành chữ in hoa */
+  font-family: "Arial"; /* kiểu chữ */
+  margin-top: 0; /* không cách top */
+  padding-top: 20px; /* cách top 20px */
+  border-top: 1px solid #000; /* đường kẻ trên */
+  border-bottom: 1px solid #000; /* đường kẻ dưới */
+}
+h2 {
+  color: rgb(16, 22, 176);
+  font-size: 3em;
+  text-align: center; /* căn lề giữa */
+  font-family: "Arial";
+  /* opacity: inherit; giữ nguyên độ trong suốt */
+  opacity: 0.25; /* độ trong suốt */
+  /* display: block; / hiện
+  display: none; /* ẩn 
+  visibility: hidden; /* ẩn 
+  visibility: visible; hiện */
+}
+p {
+  color: rgb(63, 24, 235);
+  font-size: 1.5em;
+  text-align: left; /* căn lề trái */
+  font-family: "Arial";
+  margin-left: 20px; /* cách trái 20px */
+  margin-right: 20px; /* cách phải 20px */
+}
+a {
+  color: rgb(66, 148, 236);
+  text-decoration: none; /* không gạch chân */
+  font-size: 50px;
+  font-family: "Arial";
+}
+
+body {
+  background-image: url(./Hình/coxanh.png);
+}

@@ -1,0 +1,13 @@
+h1 {
+  color: rgb(225, 22, 22);
+  font-size: 5em;
+  text-align: center; /* căn lề giữa */
+  text-transform: uppercase; /* chuyển thành chữ in hoa */
+  font-family: "Arial"; /* kiểu chữ */
+
+  -webkit-user-select: none; /* không cho chọn dành cho chorme , safari*/
+  -moz-user-select: none; /* không cho chọn dành cho fox */
+  -ms-user-select: none; /* không cho chọn dành cho edge */
+
+  user-select: none; /* không cho chọn */
+}
