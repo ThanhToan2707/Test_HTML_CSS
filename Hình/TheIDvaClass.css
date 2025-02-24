@@ -1,0 +1,39 @@
+p {
+  color: royalblue;
+  font-size: 20px;
+  font-family: Arial;
+  text-align: left;
+}
+
+#line_p {
+  color: rgb(17, 154, 12);
+  font-size: 20px;
+  font-family: Arial;
+  text-align: left;
+}
+
+.line_p {
+  color: rgb(242, 111, 45);
+  font-size: 20px;
+  font-family: Arial;
+  text-align: left;
+}
+.line_p222 {
+  color: rgb(133, 130, 132);
+  font-size: 50px;
+  font-family: Arial;
+  text-align: left;
+}
+
+h3.line_p {
+  color: rgb(65, 12, 238);
+  font-size: 20px;
+  font-family: Arial;
+  text-align: left;
+}
+/* h4.line_p {
+  color: rgb(59, 238, 119);
+  font-size: 20px;
+  font-family: Arial;
+  text-align: left;
+} */
