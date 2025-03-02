@@ -1,0 +1,15 @@
+.p1:not(h2, h3) /* chọn tất cả các thẻ p1 nhưng loại thẻ p1 nào có class là h2 và h3*/ {
+  color: rgb(46, 230, 98);
+  background-color: #b2b0e62e;
+}
+
+/* chọn tất class = p1 loại trừ p, h3, h4, h5 */
+.p1:not(p, h3, h4, h5):hover {
+  color: rgb(57, 22, 234);
+  background-color: #b2b0e62e;
+}
+
+.p1:not(:first-of-type):active {
+  color: rgb(234, 36, 52);
+  background-color: #b2b0e62e;
+}
