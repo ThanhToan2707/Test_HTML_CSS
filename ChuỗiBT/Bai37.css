@@ -1,0 +1,56 @@
+/* chọn thẻ h3 xuất hiện đầu tiên trong thẻ cha dù trước nó có thẻ p thì h3 vẫn tính đầu tiên*/
+h3:first-of-type {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* chọn thẻ p xuất hiện đầu tiên trong thẻ cha */
+p:first-of-type {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* chọn thẻ h3 xuất hiện ở vị trí thứ 3 trong thẻ cha cho dù gom div tính thứ tự thì kiếm th h3 thứ tự 3 chứ 
+ko tìm theo vị trị của div*/
+h3:nth-of-type(3) {
+  color: rgb(213, 25, 188);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+p:nth-of-type(3) {
+  color: rgb(25, 213, 25);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* chọn thẻ h3 nào chẳn trong thẻ cha */
+h3:nth-last-of-type(even) {
+  color: rgb(206, 241, 68);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* chọn thẻ p nào lẻ trong thẻ cha */
+p:nth-last-of-type(odd) {
+  color: rgb(68, 218, 241);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* chọn thẻ p nào là duy nhất trong thẻ cha dù có những thẻ khác thì
+nó vẫn lấy p duy nhất # only-child  */
+p:only-of-type {
+  color: rgb(44, 56, 232);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}

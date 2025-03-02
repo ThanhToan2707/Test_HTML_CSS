@@ -1,0 +1,49 @@
+#id1:hover /* tác động len selector khi di chuột*/ {
+  color: red;
+}
+
+#id2:active /* tác động khi click vào selector */ {
+  color: rgb(50, 220, 81);
+}
+.class1.class2:hover /* Lỗi */ {
+  color: red;
+}
+
+.class3:active /* tác động khi click vào selector */ {
+  color: rgb(121, 50, 220);
+}
+
+.classlink:link /* tác động khi link chưa được click */ {
+  color: rgb(30, 236, 95);
+}
+
+.classlink:visited /* tác động khi link đã được truy cập rồi */ {
+  color: rgb(235, 33, 60);
+}
+
+.classlink2:link /* tác động khi link chưa được click */ {
+  color: rgb(30, 236, 95);
+}
+.classlink2:visited /* tác động khi link đã được truy cập rồi */ {
+  color: rgb(159, 45, 240);
+}
+
+.div_elem:empty /* tác động khi element rỗng tóm lại empty là lớp rỗng */ {
+  background-color: rgb(60, 243, 139);
+  height: 100px;
+  width: 100px;
+}
+
+.div_elem {
+  background-color: rgb(213, 243, 60);
+  height: 100px;
+  width: 100px;
+}
+
+h3#mobai:target /* tác động khi click vào link chứa id của selector */ {
+  color: rgb(36, 43, 237);
+}
+
+h3#ketbai:target /* tác động khi click vào link chứa id của selector */ {
+  color: rgb(237, 36, 43);
+}

@@ -1,0 +1,34 @@
+[href] {
+  color: blue;
+}
+
+h3[href] {
+  color: rgb(54, 166, 222);
+}
+
+[target="_blank"] {
+  color: rgb(49, 227, 49);
+}
+
+[title~="ThanhToàn.cc"] /*chọn những title chỉ có chứa từ thanhtoan.cc*/ {
+  color: rgb(255, 0, 0);
+}
+
+[title *= "ThanhToàn"] /*chọn tất cả title có chứa từ thanhtoan*/ {
+  color: rgb(228, 23, 218);
+}
+
+/* |= tìm các từ bắt đầu bằng chữ pic (pic ok, pic3 no ok, pick-abcd ok) */
+[title|="pic"] {
+  color: rgb(0, 0, 0);
+}
+
+/* ^= tìm các từ bắt đầu bằng chữ pic (pic ok, pic3  ok, pick-abcd ok) */
+[title^="pic"] {
+  color: rgb(185, 237, 80);
+}
+
+/*  $= tìm các từ cuối cùng = c (pic ok, pic3 no ok, pick-abcd no ok) */
+[title$="c"] {
+  color: rgb(255, 0, 0);
+}

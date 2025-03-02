@@ -1,0 +1,55 @@
+/* tìm phần tử đầu tiên trong thẻ h3 lưu ý là thẻ đầu tiên nếu trc thì không tính */
+h3:first-child {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* tìm phần tử con cuối cùng lưu ý là phần tử con cuối cùng */
+h3:last-child {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* tìm phần tử con thứ 2 lưu ý là phần tử con thứ 2 */
+h3:nth-child(3) {
+  color: rgb(213, 25, 188);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* tìm phần tử con thứ 2 từ cuối lưu ý là phần tử con thứ 2 từ cuối */
+h3:nth-last-child(2) {
+  color: rgb(213, 25, 188);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* tìm những phần tử vị trí chẳn */
+h3:nth-child(odd) {
+  color: rgb(25, 213, 59);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* tìm những phần tử vị trí lẻ */
+h3:nth-child(even) {
+  color: rgb(167, 134, 233);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* tìm phần tử con đầu tiên của thẻ p lưu ý là duy nhất(chỉ có 1 thẻ trong div) */
+p.p1:only-child {
+  color: rgb(44, 56, 232);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
