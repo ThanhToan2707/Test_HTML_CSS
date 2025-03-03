@@ -1,0 +1,24 @@
+a {
+  text-decoration: none; /* Remove underline */
+  background: #70c2f5;
+  border-radius: 90px;
+  display: inline-block; /*dùng inline-block để mở khoá nó hiển thị theo chiều */
+  padding: 20px;
+  text-align: center;
+}
+
+a:hover {
+  background: #f57070;
+}
+
+a:active {
+  background: #47ef9e;
+}
+
+a:link {
+  color: #e12595;
+}
+
+#mobai:target {
+  color: #49a9e9;
+}

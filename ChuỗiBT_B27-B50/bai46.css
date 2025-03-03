@@ -1,0 +1,9 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  padding: 30px;
+  border: 10px solid rgb(25, 25, 238);
+  outline: 60px solid rgb(255, 0, 0);
+  margin: 50px;
+}

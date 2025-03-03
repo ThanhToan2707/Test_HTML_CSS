@@ -1,0 +1,7 @@
+strong {
+  background: #aaa7a7;
+  padding: 30px;
+  margin-right: 100px;
+  margin-top: 200px;
+  display: inline-block; /* dùng inline-block để mở khoá strong nó hiển thị theo chiều ngang */
+}

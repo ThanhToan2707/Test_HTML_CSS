@@ -1,0 +1,45 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 5px solid rgb(25, 25, 238);
+  padding: 20px;
+  display: flex; /* dùng flexbox để cộng khoảng cách giữa hai margin dọc ko cho đè nhau 50+80=130*/
+}
+
+.box1 {
+  margin-bottom: 50px;
+}
+
+.box2 {
+  margin-top: 80px;
+}
+
+/* hai margin sẽ đụng nhau nhưng chỉ tính cho thằng cuối cùng là 80px */
+
+.box3 {
+  margin-left: 253px;
+  margin-top: -580px;
+}
+
+.box4 {
+  margin-left: 253px;
+  margin-top: 10px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 3px solid rgb(25, 25, 238);
+}
+
+.item1 {
+  margin-right: 50px;
+}
+
+.item2 {
+  margin-left: 50px;
+}
+
+/* nếu dùng hai margin theo chiều ngang sẽ cộng dồn khaongr cách 50px R + 50 L */
