@@ -1,0 +1,79 @@
+.div {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: #b1bdeb;
+  /* padding: 20px; */
+  /* padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; */
+
+  /* padding: 20px, 30px (tren duoi 20px, trai phai 30px) */
+  /* padding: 20px, 10px, 30px (tren 20px, trai phai 10px,duoi 30px) */
+
+  /* vien */
+  /* border: 10px double rgb(84, 25, 234); */
+  /* border-top: 5px dashed rgb(83, 230, 122);
+  border-right: 5px double rgb(238, 163, 51);
+  border-bottom: 5px dotted rgb(41, 172, 238);
+  border-left: 5px solid rgb(225, 39, 39); */
+  border: 7px solid rgb(30, 229, 97);
+  border-radius: 5px;
+  /* border-top-right-radius: 8px; */
+  margin: 10px;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  color: rgb(26, 26, 2);
+  background-color: #cdf009f4;
+  padding: 20px;
+  border: 7px solid rgb(20, 2, 228);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+div.box1 {
+  width: 100px;
+  height: 100px;
+  color: red;
+  background-color: #dbddd1f4;
+  padding: 20px;
+  border: 7px solid rgb(111, 190, 236);
+  border-radius: 5px;
+  margin-left: 165px;
+  margin-top: -306px;
+}
+
+div.box2 {
+  width: 100px;
+  height: 100px;
+  color: blue;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 7px solid rgb(111, 190, 236);
+  border-radius: 5px;
+  margin-left: 310px;
+}
+
+div.box3 {
+  width: 100px;
+  height: 100px;
+  color: green;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 7px solid rgb(111, 190, 236);
+  border-radius: 5px;
+  margin-left: 450px;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+div.c1 {
+  color: red;
+  margin: 0px, auto;
+}
