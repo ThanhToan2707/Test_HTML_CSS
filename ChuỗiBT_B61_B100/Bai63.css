@@ -1,0 +1,28 @@
+strong /*Nhấn mạnh nội dung trong thẻ*/ {
+  font-weight: bold;
+  color: red;
+
+  text-decoration: underline dotted blue;
+}
+.strong1 /*Nhấn mạnh nội dung trong 1 thẻ*/ {
+  font-weight: bold;
+  color: green;
+
+  text-decoration: underline; /*Gạch chân nội dung*/
+  text-decoration: none; /*Không gạch chân nội dung*/
+  text-decoration: line-through; /*Gạch ngang nội dung*/
+}
+
+.p1 {
+  font-size: 20px;
+  font-weight: 700; /* font-weight: 700; chỉ áp dụng cho class p1 chỉ độ dầy của chữ*/
+  line-height: 0.25; /*Khoảng cách giữa các dòng là 0.5*/
+  text-indent: -6px; /*Thục lề đầu dòng 6px*/
+}
+
+.p2 {
+  text-transform: uppercase; /*Chuyển tất cả chữ thành chữ in hoa*/
+  text-transform: lowercase; /*Chuyển tất cả chữ thành chữ in thường*/
+  text-transform: capitalize; /*Chuyển chữ cái đầu tiên của mỗi từ thành chữ in hoa*/
+  text-transform: none; /*Không thay đổi chữ*/
+}

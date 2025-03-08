@@ -1,0 +1,28 @@
+body {
+  font-family: "Inter", sans-serif; /* font-family: "Inter", sans-serif; áp dụng cho toàn body */
+}
+
+p {
+  font-family: "Roboto", sans-serif; /* font-family: "roboto", sans-serif; chỉ áp dụng cho thẻ p*/
+}
+
+.p_inter {
+  font-family: "Inter", sans-serif; /* font-family: "Inter", sans-serif; chỉ áp dụng cho class p_inter*/
+}
+
+.p_bai61 {
+  font-weight: 900; /* font-weight: 900; chỉ áp dụng cho class p_bai61*/
+  line-height: 0.5; /*Khoảng cách giữa các dòng là 0.5*/
+}
+
+.p_bai62 {
+  letter-spacing: 5px; /*Khoảng cách giữa các ký tự là 5px*/
+  word-spacing: 8px; /*Khoảng cách giữa các từ là 8px*/
+}
+
+.p2_bai62 {
+  text-align: center; /*Căn giữa nội dung (chỉ căn theo trong box chứa nó chứ không căn giữa trang*/
+  text-align: left; /*Căn trái nội dung*/
+  text-align: right; /*Căn phải nội dung*/
+  text-align: justify; /*Căn đều nội dung*/
+}

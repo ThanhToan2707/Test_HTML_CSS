@@ -1,0 +1,14 @@
+.p1 {
+  white-space: normal;
+  white-space: nowrap; /*Chữ sẽ không xuống dòng*/
+  white-space: pre; /*Chữ sẽ giữ nguyên định dạng như trong code như trong code*/
+  white-space: pre-line; /*Khoảng trắng thừa mỗi dòng sẽ bị loại bỏ*/
+  white-space: pre-wrap; /*Khoảng trắng thừa mỗi dòng sẽ được giữ lại*/
+}
+
+.p2 {
+  font-size: 20px;
+  background-color: yellow; /*Màu nền của chữ*/
+  word-break: break-all; /*Chữ sẽ bị cắt ngang khi không đủ chỗ*/
+  word-break: break-word; /*Chữ sẽ bị cắt ngang khi không đủ chỗ, nhưng không cắt giữa từ*/
+}
