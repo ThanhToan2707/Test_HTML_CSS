@@ -1,0 +1,15 @@
+h3 {
+  width: 200px;
+  background-color: #aaa4a4;
+  white-space: nowrap; /*Chữ sẽ không xuống dòng*/
+  overflow: hidden; /*Chữ sẽ bị ẩn đi*/
+  text-overflow: ellipsis; /*Chữ sẽ bị ẩn đi và thêm dấu ...*/
+}
+
+.p1 {
+  background-color: #76d31f;
+  overflow: hidden; /*Chữ sẽ bị ẩn đi*/
+  -webkit-line-clamp: 3; /*Chữ sẽ bị ẩn đi sau 3 dòng*/
+  -webkit-box-orient: vertical; /*Chữ sẽ hiển thị theo chiều dọc*/
+  display: -webkit-box; /*Chữ sẽ hiển thị trong box*/
+}

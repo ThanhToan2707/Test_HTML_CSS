@@ -1,0 +1,27 @@
+h2 {
+  margin: 20px;
+  text-shadow: 20px 0px 2px blue;
+  /*đối số thứ nhất dịch trái -20px or phải 20px/
+    /*đối số thứ hai dịch xuống -20px or lên 20px*/
+  /*đối số thứ ba độ mờ*/
+}
+
+.overflow1 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  margin: 20px;
+  overflow: visible; /*Chữ sẽ hiển thị ra ngoài khung chứa*/
+  overflow: hidden; /*Chữ sẽ bị ẩn đi*/
+  overflow: scroll; /*Chữ sẽ hiển thị thanh cuộn*/
+  overflow: auto; /*Chữ sẽ hiển thị thanh cuộn khi cần*/
+}
+
+.overflow_bai66 {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  overflow: auto;
+  overscroll-behavior: contain; /*Chữ sẽ không bị cuộn khi cuộn ra ngoài khung chứa*/
+  overscroll-behavior: auto; /*Chữ sẽ bị cuộn khi cuộn ra ngoài khung chứa*/
+}

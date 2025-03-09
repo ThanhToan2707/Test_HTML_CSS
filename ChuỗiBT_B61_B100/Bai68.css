@@ -1,0 +1,19 @@
+li {
+  list-style-type: none; /* Xóa dấu chấm tròn */
+  display: inline-block;
+  /* margin-right: 10px; */
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #dfdbdb;
+  border-radius: 40px; /* Bo tròn viền */
+  cursor: pointer; /* Biến con trỏ thành hình bàn tay */
+}
+
+.fa-brands {
+  font-size: 30px;
+}
+
+.fa-youtube {
+  border-radius: 20 px;
+  background-color: #54d668;
+}
