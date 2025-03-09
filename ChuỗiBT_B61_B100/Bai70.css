@@ -1,0 +1,8 @@
+.bg_img {
+  height: 100vh; /* 100% of the viewport height */
+  background-image: url(/Hình/cavoi.png), url(/Hình/light_background.avif);
+  background-repeat: repeat-x; /* lặp lại theo trục x */
+  background-repeat: repeat-y; /* lặp lại theo trục y */
+  background-repeat: repeat; /* lặp lại theo cả trục x, y nếu img ko bao phủ dc hết bg*/
+  background-repeat: no-repeat; /* Do not repeat the image */
+}

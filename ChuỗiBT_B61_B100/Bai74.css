@@ -1,0 +1,24 @@
+.box1 {
+  height: 250px;
+  background-image: url(../Hình/Hinh_Humman/pic_man.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #000;
+
+  background-attachment: fixed; /* Ảnh sẽ đứng im khi cuộn trang */
+}
+
+.box2 {
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  border: 2px solid #000;
+  color: rgba(129, 70, 239, 0.757);
+  background-image: url(../Hình/cavoi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: auto; /*Chữ sẽ hiển thị thanh cuộn khi cần*/
+  background-attachment: local; /* Ảnh sẽ cuộn theo nội dung */
+}

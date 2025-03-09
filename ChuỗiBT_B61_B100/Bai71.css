@@ -1,0 +1,22 @@
+.gb_img_phan2 {
+  width: 360px;
+  height: 360px;
+  border: 3px solid #000;
+  background-image: url(../Hình/shiba_dog.png);
+  background-size: contain; /* Ảnh sẽ được hiển thị đúng size nhưng phần dư của box sẽ được thêm 1 phần ảnh mới vào sao cho đủ box chứa*/
+  background-size: cover; /* Ảnh sẽ được hiển thị đúng kích thước để lắp đầy box chứa nó */
+}
+
+.gb_img_bai72 {
+  width: 200px;
+  height: 150px;
+  border: 3px dotted blue;
+  margin-top: 20px;
+  background-image: url(../Hình/shiba_dog.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center; /* Đặt ảnh vào giữa box */
+  background-position: top right; /* Đặt ảnh vào góc trên bên phải của box */
+  background-position: bottom left; /* Đặt ảnh vào góc dưới bên trái của box */
+  background-position: 50% -50%; /* Đặt ảnh vào giữa box */
+}
