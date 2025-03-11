@@ -1,0 +1,10 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  background-color: pink;
+  box-shadow: -20px 16px rgba(186, 185, 185, 0.5);
+  box-shadow: -20px -16px 10px rgba(223, 36, 36, 0.718);
+  box-shadow: 35px -10px 20px 5px rgba(24, 24, 219, 0.797);
+  /* 35 độ x, -10 truc y, 20 độ mờ, 5 độ rộng bóng */
+}

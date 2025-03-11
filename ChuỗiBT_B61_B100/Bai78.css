@@ -1,0 +1,15 @@
+body {
+  background-image: url(../Hình/Hinh_Humman/pictrue_girdbule.jpg);
+  background-repeat: no-repeat; /* Ảnh sẽ không lặp lại */
+  background-position: top left; /* Ảnh sẽ hiển thị ở góc trên bên trái */
+  background-attachment: fixed; /* Ảnh sẽ đứng im khi cuộn trang */
+  background-size: auto; /* Ảnh sẽ hiển thị theo kích thước thật */
+}
+
+.box1 {
+  height: 200px;
+  margin-top: 20px;
+  background-color: aquamarine;
+
+  backdrop-filter: blur(10px); /* Làm mờ nền */
+}

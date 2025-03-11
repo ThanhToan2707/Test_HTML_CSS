@@ -1,0 +1,24 @@
+.box {
+  background-color: antiquewhite;
+  padding-left: 20px;
+  counter-reset: section; /* Khởi tạo biến đếm */
+}
+
+h2 {
+  counter-increment: section; /* Tăng biến đếm lên để dùng cho phần content gọi counter truyền vào section*/
+  counter-reset: sub-section; /* Khởi tạo biến đếm cho phần con và reset cho thẻ h3*/
+}
+h2::before {
+  content: "Phần " counter(section) ": "; /* Hiển thị số chương */
+  color: blue;
+}
+
+h3 {
+  color: green;
+  counter-increment: sub-section; /* Tăng biến đếm lên để dùng cho phần content gọi counter truyền vào subsection*/
+}
+
+h3::before {
+  content: counter(section) "." counter(sub-section) " "; /* Hiển thị số chương */
+  color: red;
+}

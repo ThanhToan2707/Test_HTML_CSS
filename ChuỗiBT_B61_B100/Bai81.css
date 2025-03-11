@@ -1,0 +1,27 @@
+.img_demo {
+  max-width: 400px;
+
+  pointer-events: none; /* Không cho phép click vào ảnh lấy hình ảnh*/
+}
+
+.a_demo {
+  display: inline-block; /* Hiển thị theo chiều ngang */
+  margin: 10px; /* Khoảng cách giữa các ảnh */
+  background-color: yellow;
+  font-size: 20px;
+  text-decoration: none; /* Không gạch chân */
+
+  pointer-events: none; /* Không cho phép click vào ảnh lấy hình ảnh*/
+}
+
+.img_bai82 {
+  max-width: 100%; /* Ảnh sẽ không vượt quá kích thước của thẻ chứa nó */
+  display: block; /* Hiển thị theo chiều dọc */
+  margin: 0 auto; /* Canh giữa */
+}
+
+.box {
+  max-width: 700px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
