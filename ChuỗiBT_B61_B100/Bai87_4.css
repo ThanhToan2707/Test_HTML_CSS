@@ -1,0 +1,39 @@
+body {
+  padding-top: 60px; /* Đẩy nội dung xuống dưới để không bị che */
+}
+
+.icon_mess {
+  font-size: 3rem;
+  color: blue;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+/*  */
+.icon {
+  display: flex;
+  gap: 20px; /* Khoảng cách giữa các icon */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: center; /*căn giữa khung hình*/
+  align-items: center; /* căng giữa content */
+  background-color: #f0f0f0; /* Màu nền để dễ nhìn */
+  padding: 10px; /* Khoảng cách bên trong để dễ nhìn */
+  z-index: 1000; /* Đảm bảo phần này nằm trên cùng */
+}
+
+.icon1 a {
+  font-size: 2rem;
+  color: red;
+}
+
+.icon2 a {
+  font-size: 2rem;
+  color: black;
+}
+
+.icon3 a {
+  font-size: 2rem;
+  color: blue;
+}

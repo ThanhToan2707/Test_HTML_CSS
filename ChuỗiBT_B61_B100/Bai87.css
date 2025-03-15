@@ -1,0 +1,35 @@
+.box {
+  width: 200px;
+  height: 150px;
+  /* Căn giữa text ở các khối */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.box1 {
+  background: rgb(220, 139, 33);
+  /* position relat định vị so với khaongr ban đầu 1 khaongr x */
+  position: relative;
+  left: 50px;
+}
+
+.box2 {
+  background-color: blue;
+  /* position relat định vị so với khaongr ban đầu 1 khaongr x */
+  position: relative;
+  right: 50px;
+}
+
+.box3 {
+  background-color: aquamarine;
+  /* position relat định vị so với khaongr ban đầu 1 khaongr x */
+  position: relative;
+  bottom: 50px; /*cách đáy 50px*/
+}
+
+.box4 {
+  background-color: blueviolet;
+  position: static; /* positon mặt định Không cách khoảng so với ban đầu*/
+}

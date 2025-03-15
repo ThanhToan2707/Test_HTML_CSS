@@ -1,0 +1,24 @@
+.noticon {
+  margin: 20px;
+  font-size: 20px;
+  color: blue;
+  background-color: #c9c1c1;
+
+  /* Giới hạn số 20 không cho nó vượt khỏi bgc xám */
+  position: relative;
+}
+.fa-house {
+  font-size: 65px;
+}
+.mes {
+  background-color: red;
+  padding: 5px;
+  border-radius: 30px;
+  color: white;
+  font-size: 25px;
+
+  /* Tách 20 lên tầng 2 nên dùng absol */
+  position: absolute;
+  left: 45px;
+  top: -15px;
+}

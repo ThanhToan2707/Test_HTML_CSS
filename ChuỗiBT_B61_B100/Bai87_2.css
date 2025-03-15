@@ -1,0 +1,35 @@
+.box {
+  width: 200px;
+  height: 150px;
+  /* Căn giữa text ở các khối */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.content {
+  background: #d5d2d2;
+  margin-left: 70px;
+}
+
+.box1 {
+  background: rgb(220, 139, 33);
+}
+/*  */
+.box2 {
+  background-color: blue;
+  position: absolute; /* đẩy lên lớp phía trên nghĩa là box 2 blue sẽ đc đẩy lên lớp tầng 2 nên đè lớp box 3 green  */
+  /* width: 50px;
+  height: 50px; */
+  left: 0px;
+  top: 0px;
+}
+
+.box3 {
+  background-color: aquamarine;
+}
+
+.box4 {
+  background-color: blueviolet;
+}
