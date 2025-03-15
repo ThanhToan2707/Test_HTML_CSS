@@ -1,0 +1,15 @@
+.div1 {
+  height: 100px;
+  /* width: 80px; */
+  width: calc(100% - 80px); /* chiều rộng = 100% - 80px */
+  background-color: aquamarine;
+  margin: 0 auto; /* căn giữa theo chiều ngang */
+}
+
+.div2 {
+  background-color: yellow;
+  height: calc(
+    100vh - 100px
+  ); /* chiều cao = 100vh- 100px của thằng height của div1*/
+  margin-top: 20px;
+}

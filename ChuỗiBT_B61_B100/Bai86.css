@@ -1,0 +1,63 @@
+:root {
+  /* Khai báo biến áp dụng cho cả trang */
+  --main-color: #007bff;
+  --main-bg-color: #bfc3c6;
+  --main-bg-color-hover: yellow;
+  --text-color: #212529;
+  --border-color: #ced4da;
+  --border-radius: 0.25rem;
+}
+
+.box1 {
+  height: 100px;
+  background-color: var(--main-color);
+  margin-top: 20px;
+}
+
+.box1:hover {
+  background-color: var(--main-bg-color-hover);
+}
+
+.box1:active {
+  background-color: var(--main-bg-color);
+}
+
+.box2 {
+  height: 100px;
+  background-color: var(--main-color);
+  margin-top: 20px;
+}
+
+.box3 {
+  height: 100px;
+  background-color: var(--main-color);
+  margin-top: 20px;
+}
+
+.p_varibale {
+  --p_font-size: 50px;
+  --p_bg_color: aqua;
+}
+
+.p_varibale span {
+  background-color: var(--p_bg_color);
+  font-size: var(--p_font-size);
+}
+
+/* .box1 {
+  height: 100px;
+  background-color: antiquewhite;
+  margin-top: 20px;
+}
+
+.box2 {
+  height: 100px;
+  background-color: antiquewhite;
+  margin-top: 20px;
+}
+
+.box3 {
+  height: 100px;
+  background-color: antiquewhite;
+  margin-top: 20px;
+} */
